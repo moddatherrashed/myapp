@@ -2,7 +2,7 @@ import React from 'react'
 import {Text , StyleSheet ,TouchableOpacity } from 'react-native'
 
 
-const ListBtn = (props) => {
+const Button = (props) => {
 
     return(
         <TouchableOpacity onPress = {props.onPress} style ={styles.btnStyle}>
@@ -17,7 +17,7 @@ const ListBtn = (props) => {
 const styles = StyleSheet.create(
     {
         btnStyle : {
-            backgroundColor : '#FFFFFF',
+            backgroundColor : '#F0502A',
             height : 50 ,
             borderRadius : 5 ,
             borderWidth : 1,
@@ -29,7 +29,7 @@ const styles = StyleSheet.create(
             alignItems : 'center'
         },
         textStyle : {
-            color : '#007aff',
+            color : '#FFFFFF',
             fontWeight : '600',
             fontSize : 16,
             paddingTop : 5 ,
@@ -38,4 +38,4 @@ const styles = StyleSheet.create(
     }
 )
 
-export  {ListBtn}
+export  {Button}
